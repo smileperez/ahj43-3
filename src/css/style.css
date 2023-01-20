@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+  
+.game-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.controller {
+    display: flex;
+    justify-content: center;
+}
+
+.gamedesk {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.line {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 430px;
+    margin: 5px auto;
+}
+
+.box {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    background-color: #6667AB;
+    border-radius: 50%;
+}
+
+.start {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #BB2649;
+    font-size: 30px;
+}
+
+.start:hover {
+    outline: dotted red;
+    background-color: gold;
+}
+  
+.hide {
+    display: none;
+}
+
+.goblin {
+    width: 60px;
+}
+
+.goblin-img {
+    width: 100%;
+}
+
+.stats {
+    margin-top: 20px;
+}
+
+h1 {
+    margin:5px;
+    padding:0;
+    text-align: center;
+    font-size: 20px;
+}
+
