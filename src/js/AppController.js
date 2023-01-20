@@ -15,9 +15,6 @@ export default class Game {
     // Проходим по всем полям и ищем поле соответсвтующее newField
     for (const element of this.fields) {
       if (element.getAttribute('data-id') === this.newField.toString()) {
-
-
-
         if (this.prevElement) {
           if (this.goblin.classList.contains('hide')) {
             this.hits += 1;
@@ -28,7 +25,7 @@ export default class Game {
           }
           this.prevElement.removeChild(this.goblin);
         }
-        
+
         this.goblin.classList.remove('hide');
 
         if (this.misses === 5) {
